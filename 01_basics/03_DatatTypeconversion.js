@@ -37,3 +37,16 @@ but in actual that a nit a number
  console.log(typeof stringNumber)
 
  //o/p show as number but type is string
+
+ // console.log("1"+2+2) 
+let str1= 2
+let str2 = 3
+let str3 = str1+str2
+console.log(str3)
+
+console.log("1"+3+3) //string get attached in this case 
+// o/p is 133
+console.log(1+3+"3")  //in this case first addition is done then remaing string is attaches to the o/p
+// o/p is 43
+
+// but mostly this form is not as correct way of programming
